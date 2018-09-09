@@ -316,7 +316,6 @@ header .mobile {
 #filters-section {
   padding: 4rem 0;
   background-color: #4a4a4a;
-  overflow:hidden;
 }
 
 #filters-section .content {
@@ -342,14 +341,16 @@ header .mobile {
   height: auto;
   max-width: 100%;
   padding: 0 1%;
-  overflow: auto;
+
 }
 
-.image-container{
+.image-container img{
   display: inline-flex;
   flex-direction: row;
   background-position: center;
   background-size: cover;
+  width: 100%;
+  overflow: auto;
 }
 
 

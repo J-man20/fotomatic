@@ -130,8 +130,7 @@ header .mobile {
   border-radius: 4px;
   background-color: #9dc20b;
   position: relative;
-  top:170px;
-  left:100px;
+  margin:170px 100px;
 }
 
 #sign-up-cta .content {
@@ -157,14 +156,29 @@ header .mobile {
 
 #sign-up-cta .cursive {
   font-family: "Damion", cursive;
+  margin-top: 32px;
 }
 
 #sign-up-cta .striking {
   font-family: "Rubik", sans-serif;
+  line-height: 1.4rem;
   padding-bottom: .75rem;
+  padding-top: .75rem
+}
+
+#sign-up-cta .email{
+  font-family: "Roboto-Regular";
+  font-size: 20px;
+  line-height: 1.4rem;
+  margin-top: 12px;
+  margin-bottom: 26px;
 }
 
 #sign-up-cta .button {
+  font-size: 20px;
+  font-family: "Roboto-Medium";
+  background-color: #4a4a4a;
+  border-radius: 4px;
   margin-top: 1.625rem;
   padding: 1.25rem 7.25rem;
 }
